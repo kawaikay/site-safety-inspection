@@ -183,3 +183,10 @@ v35 TRILINGUAL VOICE REMARKS
 
 v36 REMARK PLACEHOLDER
 Changed the Remarks placeholder to: Enter remarks or use voice input / 輸入備註或使用語音輸入, matching Cantonese, Mandarin and English voice input.
+
+
+v37 NATIVE KEYBOARD DICTATION
+- Removed the three in-app Web Speech language buttons because browser speech recognition was unreliable on the tested iPhone/PWA.
+- Remarks now instruct the user to tap the Remarks field and use the native phone keyboard microphone/dictation.
+- Native keyboard dictation can be used with Cantonese, Mandarin or English according to the keyboards/dictation languages configured on the phone.
+- This avoids the former Speech recognition unavailable message.

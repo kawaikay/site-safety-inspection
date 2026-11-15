@@ -46,3 +46,6 @@
 .voice-english{background:#0369a1}.voice-cantonese{background:#7c3aed}
 
 .voice-mandarin{background:#be123c}.remark-tools{flex-wrap:wrap}
+
+/* v37 native phone keyboard dictation */
+.remark-tools,.voice-remark,.voice-status{display:none!important}.native-dictation-tip{margin:7px 0 9px;padding:10px 12px;border-radius:10px;background:#eef2ff;color:#312e81;font-size:12px;line-height:1.45}.native-dictation-tip span{color:#475569}
