@@ -112,3 +112,27 @@ v20 SUB-ITEM DRILL-DOWN NAVIGATION
 - Detail page includes Previous, Item List and Next navigation.
 - Returning to the item list does not lose status, remarks or photos.
 - Finish Category remains on the sub-item list and returns to the same Main Category position.
+
+v21 PPE EXPANSION
+Added five PPE controls for correct safety-helmet use/condition and working-at-height fall protection using full-body safety harness, secure anchorage/lifeline and pre-use equipment checks.
+
+v22 PPE GENERAL COMPLIANCE
+Added a general PPE compliance item covering safety helmet, safety footwear, high-visibility vest, and safety harness where applicable.
+
+v23 DOCUMENTATION DEDUPLICATION
+- Removed duplicated scaffold documentation item D6 because D2 already covers valid Form 5/equivalent and competent-person inspection for newly erected metal scaffolding.
+- Remaining Documentation items were renumbered sequentially to avoid an ID gap.
+
+v24 CONFINED SPACE REVISION
+Confined Space checklist revised to C1-C17 based on the supplied Hong Kong Labour Department confined-space regulation summary. It now covers competent-person risk assessment, certificate/permit, isolation, atmospheric testing, cleaning/ventilation, ingress prevention, certified workers, standby communication, continuous precautions, respiratory equipment, harness/lifeline, emergency procedures/equipment, trained rescue personnel and worker instruction/training.
+
+v25 HONG KONG CONSTRUCTION-SITE TOTAL SMOKING BAN
+Updated smoking-related checks for the construction-site-wide smoking prohibition effective 17 July 2026. Legacy narrow controls such as no smoking only during plant operation were removed/superseded. Site Rules now cover total site prohibition, lighting/smoking/carrying lit smoking products, contractor/subcontractor reasonable steps, removal of smoking points/ashtrays, and communication/enforcement for workers/visitors/delivery personnel. Fire Safety includes a check for cigarette butts/evidence of smoking as a fire-risk indicator.
+
+v26 LIFTING CASEBOOK CASE 1 & CASE 6
+Added Lifting Operations checks based on Labour Department Lifting Operation Accident Casebook:
+- Case 1: pre-use/periodic hook and safety-latch condition and functionality.
+- Case 6: truck-mounted crane outriggers fully extended; appropriate pads/blocks with bearing area at least three times the outrigger float area unless otherwise specified by manufacturer; pads suitable for slopes; and suitable crane/setup location with adequate space and acceptable ground level/slope.
+
+v27 PRACTICAL CONFINED SPACE CHECKLIST
+Reduced the Confined Space checklist from 17 regulatory-detail items to 12 practical site-inspection items focused on new-build pipeline, chamber and water-tank construction. The revised controls cover risk assessment/permit, isolation, atmospheric testing, forced ventilation, flooding/material ingress, safe access and lighting, certified entrants, standby communication and entry records, continuous monitoring, rescue readiness, and guarding against unauthorized entry.
