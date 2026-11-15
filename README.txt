@@ -96,3 +96,19 @@ v18 MOBILE SCROLL POSITION FIX
 - PASS/FAIL/N/A selection now updates only the selected item card and no longer rebuilds the category list, so selecting F7 does not jump back to F1.
 - Taking a photo may still require a category refresh to show the new thumbnail, but the exact vertical scroll position is saved and restored after the refresh.
 - Deleting a photo also preserves the current vertical position.
+
+
+v19 MAIN CATEGORY RETURN-POSITION FIX
+- When Finish Category is pressed, the app returns to the Main Categories screen at the same category card just completed instead of returning to the first category.
+- Example: complete General Hygiene near the bottom, press Finish Category, and General Hygiene remains centred on screen.
+- The Back button from a category follows the same behavior.
+- Opening the PWA normally still starts at the top of Main Categories.
+
+
+v20 SUB-ITEM DRILL-DOWN NAVIGATION
+- Opening a Main Category now shows a compact list of all sub-items first.
+- Each sub-item displays its current state: OPEN, PASS, FAIL or N/A.
+- Tapping a sub-item opens a dedicated detail page for PASS/FAIL/N/A, remarks and photo capture.
+- Detail page includes Previous, Item List and Next navigation.
+- Returning to the item list does not lose status, remarks or photos.
+- Finish Category remains on the sub-item list and returns to the same Main Category position.
