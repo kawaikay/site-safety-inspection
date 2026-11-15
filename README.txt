@@ -190,3 +190,7 @@ v37 NATIVE KEYBOARD DICTATION
 - Remarks now instruct the user to tap the Remarks field and use the native phone keyboard microphone/dictation.
 - Native keyboard dictation can be used with Cantonese, Mandarin or English according to the keyboards/dictation languages configured on the phone.
 - This avoids the former Speech recognition unavailable message.
+
+
+v39 PROFESSIONAL REPORT REDESIGN
+Redesigned report hierarchy, metadata table, typography, category bars, observation boxes, photo/remarks grid, summary cards, issues list and sign-off for a formal A4 RSS inspection report.
