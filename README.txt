@@ -28,8 +28,3 @@ OFFLINE PDF
 - iPhone/iPad: in the print preview, pinch outward to open the PDF, then Share > Save to Files.
 - Android/Chrome: choose Save as PDF in the print destination.
 - PDF creation uses the browser print engine and works offline; no external PDF library or server is required.
-
-PHOTO TIMESTAMPS
-- Each newly added camera/photo file is stamped immediately when it is stored in the inspection.
-- The local timestamp is shown below the thumbnail and below each photo in the offline PDF/print report.
-- Existing photos saved by an earlier PWA version fall back to their original createdAt value.
