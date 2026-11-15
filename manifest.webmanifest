@@ -1,14 +1,1 @@
-{
-  "name": "Site Safety Inspection | 地盤安全檢查系統",
-  "short_name": "Safety Inspection",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f8fafc",
-  "theme_color": "#1e40af",
-  "description": "Offline bilingual site safety inspection with local photos and PDF export.",
-  "icons": [
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
-  ]
-}
+{"name":"Site Safety Inspection | 地盤安全檢查系統","short_name":"Safety Inspection","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f8fafc","theme_color":"#1e40af","icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
