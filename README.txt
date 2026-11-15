@@ -179,3 +179,7 @@ v35 TRILINGUAL VOICE REMARKS
 - Added Mandarin / 普通話 speech input using zh-CN.
 - Remarks now support Cantonese (zh-HK), Mandarin (zh-CN) and English (en-HK).
 - Recognized speech is appended to existing remarks.
+
+
+v36 REMARK PLACEHOLDER
+Changed the Remarks placeholder to: Enter remarks or use voice input / 輸入備註或使用語音輸入, matching Cantonese, Mandarin and English voice input.
