@@ -149,3 +149,33 @@ v30 CONTRACTOR REPRESENTATIVES AND E-SIGNATURE
 - Added finger/stylus e-signature dialog with Clear, Save and Delete functions.
 - Signature is stored locally with that report and restored when reopened.
 - Added PDF sign-off block with Report prepared by, RSS Representative, Date of report and Signed. No contractor signature box is included.
+
+
+v31 OTHERS CATEGORY
+- Added Others / 其他 as a Main Category for safety issues not covered by the prescribed checklist.
+- OT1: Other safety issue not covered by the prescribed inspection items / 其他未涵蓋於既定檢查項目的安全問題.
+- The existing detail workflow allows PASS/FAIL/N/A, free-text Remarks, photo capture, photo deletion and timestamping. For an actual unlisted issue, use OT1 with FAIL, describe the issue in Remarks, and attach supporting photo(s).
+- OT1 appears in the selected-items-only PDF and feeds General Safety Issues Identified when marked FAIL.
+
+
+v32 OTHERS EXPANSION
+Expanded Others / 其他 from OT1 to OT1-OT10 so users can quickly classify uncatalogued safety observations before adding remarks and photos.
+
+
+v33 CANTONESE VOICE REMARKS
+- Added a microphone button beside Remarks on each sub-item detail page.
+- SpeechRecognition language is set to zh-HK for Cantonese/Hong Kong Chinese recognition.
+- Recognized speech is appended to the existing remark rather than replacing it.
+- Microphone permission is required. Browser support varies; some browsers use a server-based recognizer and therefore voice recognition may require an internet connection even though the rest of the PWA works offline.
+
+
+v34 BILINGUAL VOICE REMARKS
+- Added separate Cantonese and English speech-input buttons beside Remarks.
+- Cantonese uses zh-HK. English uses en-HK.
+- Recognized speech is appended to existing remarks.
+
+
+v35 TRILINGUAL VOICE REMARKS
+- Added Mandarin / 普通話 speech input using zh-CN.
+- Remarks now support Cantonese (zh-HK), Mandarin (zh-CN) and English (en-HK).
+- Recognized speech is appended to existing remarks.
