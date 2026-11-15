@@ -62,3 +62,24 @@ v13 PHOTO THUMBNAIL TIMESTAMP
 - Increased the timestamp displayed below each photo thumbnail in the PWA inspection screen to 14 px, bold, dark text.
 - Added 6 px spacing above the timestamp for readability on mobile phones.
 - PDF layout is unchanged: the separate large timestamp below PDF photos remains removed because date/time is already burned into each photo.
+
+
+v14 REPORT HEADER
+- Moved the red ARUP mark into the right-hand side of the formal report header zone.
+- Changed Inspection to Inspection Report Ref. No.
+- Existing offline, timestamped photo, RSS Representative, hygiene, deduplication, compression and photo-delete functions remain.
+
+
+v15 MANUAL INSPECTION REPORT REFERENCE
+- Inspection Report Ref. No. is now a manual input field on the main inspection form.
+- The manually entered reference is saved with the offline report and shown in the PDF.
+- The internal generated ID remains hidden and is retained only for IndexedDB/photo linkage.
+- New photos use the manual report reference in the burned-in stamp when one has been entered.
+
+
+v16 PDF FILE NAME
+- Before opening the browser print/PDF dialog, the document title is temporarily changed to the manually entered Inspection Report Ref. No.
+- Safari/Chrome normally use this title as the suggested PDF filename.
+- Invalid filename characters \ / : * ? " < > | are replaced with hyphens.
+- The visible report reference and the suggested PDF filename therefore match.
+- The original PWA title is restored after printing.

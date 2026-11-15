@@ -21,3 +21,14 @@
 @media(max-width:600px){
   .thumb small{font-size:14px;}
 }
+
+/* v14: formal report header with ARUP mark in the right-hand header zone */
+.report-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-bottom:1px solid #d1d5db;padding-bottom:8px;margin-bottom:14px}
+.report-header h1{margin:0;max-width:72%}
+.report-header .arup-page-mark{display:block;position:static;color:#ed1b24;font-family:Georgia,"Times New Roman",serif;font-size:30pt;font-weight:700;letter-spacing:-2px;line-height:1;text-align:right;white-space:nowrap}
+@media print{
+  @page{size:A4;margin:15mm 14mm 16mm 14mm}
+  .report-header{display:flex;position:running(reportHeader);width:100%;background:#fff}
+  .report-header .arup-page-mark{display:block;position:static;top:auto;right:auto}
+  #report{padding-top:0}
+}
