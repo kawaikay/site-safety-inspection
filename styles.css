@@ -62,3 +62,21 @@
 .report-summary,.issues-block{border-top:2px solid #172033;margin-top:18px;padding-top:9px;page-break-inside:avoid}.report-summary h2,.issues-block h2{font-size:12px;margin:0 0 8px}.report-summary h2 span,.issues-block h2 span{font-weight:500;color:#64748b;margin-left:5px}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.summary-card{border:1px solid #cbd5e1;padding:8px 10px;display:flex;align-items:center;justify-content:space-between}.summary-card b{font-size:18px}.summary-card span{font-size:8px;font-weight:800}.summary-card.pass{border-top:3px solid #16a34a}.summary-card.fail{border-top:3px solid #dc2626}.summary-card.na{border-top:3px solid #64748b}.issues-block ol{margin:0;padding-left:20px;font-size:9px;line-height:1.55}
 .report-signoff{display:grid;grid-template-columns:1fr 1fr;border:1px solid #64748b;margin-top:18px;page-break-inside:avoid}.report-signoff>div{min-height:35mm;padding:9px;font-size:9px}.report-signoff>div+div{border-left:1px solid #64748b}.report-signature{max-height:23mm}
 @media print{@page{size:A4;margin:12mm 13mm 14mm}html,body{background:#fff!important}#report{width:auto;max-width:none;margin:0;color:#111}.report-header{margin-top:0}.report-item-box{margin-bottom:6mm}.report-category{margin-top:9mm}.report-photo{max-height:61mm}.report-item-grid,.report-photo-cell,.report-remark-cell{min-height:45mm}.report-summary,.issues-block,.report-signoff{break-inside:avoid}}
+
+/* v41 compact two-observations-per-page print layout */
+.report-category-start{break-inside:avoid;page-break-inside:avoid}.report-category-start>.report-category{break-after:avoid-page;page-break-after:avoid}.report-category-start>.report-item-box{break-before:avoid-page;page-break-before:avoid}
+@media print{
+ @page{size:A4;margin:10mm 12mm 11mm}
+ #report{font-size:9pt}
+ .report-header{margin-bottom:7px;padding-bottom:6px}.report-title h1{font-size:20px}.report-title p{font-size:12px}.report-header .arup-page-mark{font-size:24px}
+ .report-meta{margin-bottom:10px}.meta-row{min-height:9mm}.meta-row>*{padding:4px 6px}.meta-label{font-size:7pt}.meta-value{font-size:8pt}
+ .report-category{font-size:10.5pt;margin:5mm 0 4px;padding:5px 7px}
+ .report-category-start{break-inside:avoid-page!important;page-break-inside:avoid!important}
+ .report-category-start>.report-category{break-after:avoid-page!important;page-break-after:avoid!important}
+ .report-category-start>.report-item-box{break-before:avoid-page!important;page-break-before:avoid!important}
+ .report-item-box{margin-bottom:4mm;break-inside:avoid-page!important;page-break-inside:avoid!important}
+ .report-item-heading{padding:5px 7px;font-size:8.5pt;line-height:1.25}.report-item-heading span{font-size:7.7pt}
+ .report-item-grid{min-height:34mm;grid-template-columns:60% 40%}.report-photo-cell,.report-remark-cell{min-height:34mm}.report-photo-cell{padding:3px;gap:3px}.report-status{padding:5px 7px;font-size:7.5pt}.report-remark-title{padding:5px 7px 3px;font-size:7pt}.report-remark-text{padding:0 7px 6px;font-size:8pt;line-height:1.3}
+ .report-photo{max-height:46mm}
+ .report-summary,.issues-block{margin-top:10px;padding-top:6px}.report-signoff{margin-top:10px}.report-signoff>div{min-height:28mm;padding:7px}
+}

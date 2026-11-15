@@ -194,3 +194,10 @@ v37 NATIVE KEYBOARD DICTATION
 
 v39 PROFESSIONAL REPORT REDESIGN
 Redesigned report hierarchy, metadata table, typography, category bars, observation boxes, photo/remarks grid, summary cards, issues list and sign-off for a formal A4 RSS inspection report.
+
+
+v41 COMPACT TWO-ITEM PRINT LAYOUT
+- Reduced A4 margins, report metadata height, category spacing, item heading size, photo cell height and remarks typography so a normal report page can accommodate at least two typical inspection observation blocks.
+- Category heading remains attached to its first observation.
+- Observation blocks still avoid splitting across pages.
+- Exception: an unusually tall item with many photos or long remarks may require more than half a page.
