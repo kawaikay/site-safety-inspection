@@ -136,3 +136,9 @@ Added Lifting Operations checks based on Labour Department Lifting Operation Acc
 
 v27 PRACTICAL CONFINED SPACE CHECKLIST
 Reduced the Confined Space checklist from 17 regulatory-detail items to 12 practical site-inspection items focused on new-build pipeline, chamber and water-tank construction. The revised controls cover risk assessment/permit, isolation, atmospheric testing, forced ventilation, flooding/material ingress, safe access and lighting, certified entrants, standby communication and entry records, continuous monitoring, rescue readiness, and guarding against unauthorized entry.
+
+v28 SITE RULES UPDATE
+- Removed Site Rules items R11 and R12 as requested.
+
+v29 ELECTRICAL SAFETY E3
+Replaced E3 with: Suitable waterproof socket is provided and used for electric arc welding equipment. / 電弧焊設備已提供並使用合適的防水插座。
