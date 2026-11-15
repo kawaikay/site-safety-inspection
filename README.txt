@@ -83,3 +83,16 @@ v16 PDF FILE NAME
 - Invalid filename characters \ / : * ? " < > | are replaced with hyphens.
 - The visible report reference and the suggested PDF filename therefore match.
 - The original PWA title is restored after printing.
+
+
+v17 SAVED REPORT MANAGEMENT
+- Saved Reports now display the manually entered Inspection Report Ref. No. as the primary report name.
+- Older reports without reportRef fall back to Project, then internal ID.
+- Added Delete / 刪除 button beside Open.
+- Deleting a saved report asks for confirmation and removes both the saved report record and all photos linked to that report from IndexedDB.
+
+
+v18 MOBILE SCROLL POSITION FIX
+- PASS/FAIL/N/A selection now updates only the selected item card and no longer rebuilds the category list, so selecting F7 does not jump back to F1.
+- Taking a photo may still require a category refresh to show the new thumbnail, but the exact vertical scroll position is saved and restored after the refresh.
+- Deleting a photo also preserves the current vertical position.

@@ -32,3 +32,5 @@
   .report-header .arup-page-mark{display:block;position:static;top:auto;right:auto}
   #report{padding-top:0}
 }
+
+.saved-actions{display:flex;gap:8px;margin-top:9px}.open-report{background:#dbeafe;color:#0369a1}.delete-report{background:#fee2e2;color:#b91c1c;border:1px solid #fecaca}.delete-report:active{background:#fecaca}
