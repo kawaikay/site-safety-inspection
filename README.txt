@@ -142,3 +142,10 @@ v28 SITE RULES UPDATE
 
 v29 ELECTRICAL SAFETY E3
 Replaced E3 with: Suitable waterproof socket is provided and used for electric arc welding equipment. / 電弧焊設備已提供並使用合適的防水插座。
+
+
+v30 CONTRACTOR REPRESENTATIVES AND E-SIGNATURE
+- Added Contractor Representatives / 承建商代表 below RSS Representative in the form and report particulars.
+- Added finger/stylus e-signature dialog with Clear, Save and Delete functions.
+- Signature is stored locally with that report and restored when reopened.
+- Added PDF sign-off block with Report prepared by, RSS Representative, Date of report and Signed. No contractor signature box is included.
