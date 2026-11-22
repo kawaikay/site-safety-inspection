@@ -201,3 +201,10 @@ v41 COMPACT TWO-ITEM PRINT LAYOUT
 - Category heading remains attached to its first observation.
 - Observation blocks still avoid splitting across pages.
 - Exception: an unusually tall item with many photos or long remarks may require more than half a page.
+
+
+v42 MENU POSITION MEMORY
+- Main menu now remembers the exact scroll position/category before entering a category and restores it on Back or Finish Category.
+- Sub-item menu now remembers the exact scroll position/sub-item before opening an item and restores it on Item List or the top Back button.
+- The selected item is used as a fallback anchor if the exact scroll position cannot be restored.
+- Position memory is stored in sessionStorage so it survives screen rerenders within the current PWA session without changing inspection data.
